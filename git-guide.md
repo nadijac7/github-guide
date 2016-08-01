@@ -1,6 +1,7 @@
 # Quick Guide to making git repositories on the command line
 
 There's three parts in this process:
+
 1. make a repository on your local machine (command line)
 2. set up a place on Github to store your repository
 3. tell your local repository about the Github spot, and push your work to Github
