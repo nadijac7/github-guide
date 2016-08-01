@@ -10,19 +10,19 @@ There's three parts in this process:
 ## List of Commands, and a brief explanation of them
 
 - `mkdir`
-makes a directory`
+makes a directory
 
-- `pwd
-what directory am I in`
+- `pwd'
+what directory am I in
 
-- `cd
-change directory`
+- `cd'
+change directory
 - 
-`cd Documents
+`cd Documents`
 if there is a directory called `Documents` in the current directory,
 you will move into the `Documents` directory
 
-- `cd `
+- `cd`
 move up one directory (ex: from C:/Users/Jonathon/ to C:/Users/)
 
 - `touch file.txt`
@@ -36,22 +36,16 @@ make a new git repo, in the current directory
 what is the status of the git repo/directory I'm in
 
 - `git add .`
-add all the files to git's tracking system
+add all the files to git's tracking system. In git-speak, this is called `staging` your files.
 
 - `git commit -m "commit message"`
-commit changes (save) the changes to git's system
-the `-m` means message
+commit (save) the changes to git's tracking system (the `-m` means messages).
 
 - `git remote add origin https://github.com/username/repository_name.git`
-You'll get the URL from Github's "New Repository" process
-tells git that github is a backup for this repository
+You'll get the URL from Github's "New Repository" process. This command tells git that github is a backup for this repository
 
 - `git push -u origin master`
-the standard command to push to your Github repo
-(don't worry too much about the different parts of it)
-(the Github repo added with `git remote add origin url`)
-this will probably ask you for your Github username and password
-after it finishes, your work will be backed up on the Github servers
+the standard command to push to your Github repo (the Github repo added with `git remote add origin url`). This will probably ask you for your Github username and password. After it finishes, your work will be backed up on the Github servers
 
 ## Guide - New Repository
 
