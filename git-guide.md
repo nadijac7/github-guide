@@ -12,10 +12,10 @@ There's three parts in this process:
 - `mkdir`
 makes a directory
 
-- `pwd'
+- `pwd`
 what directory am I in
 
-- `cd'
+- `cd`
 change directory
 - 
 `cd Documents`
@@ -33,7 +33,7 @@ makes an empty file called `file.txt`
 make a new git repo, in the current directory
 
 - `git status`
-what is the status of the git repo/directory I'm in
+what is the status of the git repo/directory I'm in. It is good practice to use this command frequently so that you can fully understand the state of the repo.
 
 - `git add .`
 add all the files to git's tracking system. In git-speak, this is called `staging` your files.
@@ -42,14 +42,14 @@ add all the files to git's tracking system. In git-speak, this is called `stagin
 commit (save) the changes to git's tracking system (the `-m` means messages).
 
 - `git remote add origin https://github.com/username/repository_name.git`
-You'll get the URL from Github's "New Repository" process. This command tells git that github is a backup for this repository
+You'll get the URL from Github's "New Repository" process. This command tells git that github has a backup for this repository. To avoid typos, you should copy and paste (with right click, not Ctrl-V) the URL.
 
 - `git push -u origin master`
 the standard command to push to your Github repo (the Github repo added with `git remote add origin url`). This will probably ask you for your Github username and password. After it finishes, your work will be backed up on the Github servers
 
 ## Guide - New Repository
 
-In Git Bash, navigate (pwd, cd, mkdir) into a new directory.
+In Git Bash, navigate (`pwd`, `cd`, `mkdir`) into a new directory.
 
 `git init`
 
@@ -61,13 +61,13 @@ Give this repository the same name that you gave the folder on your computer.
 
 Github will provide you a link (looks like https://github.com/username/repository.git). Copy this link.
 
-Back in Git Bash, make sure you are in your git repository (git status, pwd). Type the following
+Back in Git Bash, make sure you are in your git repository (`git status`, `pwd`). Type the following
 
 `git remote add origin <your url>`
 
 ex: `git remote add origin https://github.com/username/repository.git`
 
-You should Right Click > Paste the URL in order to avoid typos.
+You should Right Click > Paste the URL in order to avoid typos. In the terminal, Ctrl-V doesn't usually work, so you should use right click.
 
 Now your repository and Github know about each other.
 
