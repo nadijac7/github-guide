@@ -23,7 +23,7 @@ if there is a directory called `Documents` in the current directory,
 you will move into the `Documents` directory
 
 - `cd`
-move up one directory (ex: from C:/Users/Jonathon/ to C:/Users/)
+move up one directory (ex: from `C:/Users/Jonathon/` to `C:/Users/`)
 
 - `touch file.txt`
 makes an empty file called `file.txt`
