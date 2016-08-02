@@ -16,14 +16,23 @@ makes a directory
 - `pwd`
 what directory am I in
 
+- `ls`
+List the stuff in the current directory
+
+    - `ls -l`
+List it in long form. Thi can be easier to read.
+
+    - `ls -la`
+Long form, and show hidden files and folders.
+
 - `cd`
 change directory
-- 
-`cd Documents`
+
+    - `cd Documents`
 if there is a directory called `Documents` in the current directory,
 you will move into the `Documents` directory
 
-- `cd`
+    - `cd ..`
 move up one directory (ex: from `C:/Users/Jonathon/` to `C:/Users/`)
 
 - `touch file.txt`
@@ -72,11 +81,11 @@ You should Right Click > Paste the URL in order to avoid typos. In the terminal,
 
 Now your repository and Github know about each other.
 
-Add files to the directory, and track them with Git using
+Add files to the directory, and then track them with Git using
 
 `git add .`
 
-Make Git remember permanently remember your files with
+Make Git permanently remember your files with
 
 `git commit -m "commit message"`
 
