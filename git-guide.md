@@ -6,6 +6,8 @@ There's three parts in this process:
 2. set up a place on Github to store your repository (internet browser)
 3. tell your local repository about the Github spot, and push your work to Github (command line)
 
+This guide assumes you are using `Git Bash` (or other `*nix` shell) as your command line.
+
 ---
 
 ## List of Commands, and a brief explanation of them
@@ -20,7 +22,7 @@ what directory am I in
 List the stuff in the current directory
 
     - `ls -l`
-List it in long form. Thi can be easier to read.
+List things in long form. This can be easier to read.
 
     - `ls -la`
 Long form, and show hidden files and folders.
