@@ -15,6 +15,9 @@ This guide assumes you are using `Git Bash` (or other `*nix` shell) as your comm
 - `mkdir`
 makes a directory
 
+    - `mkdir repository`
+    makes a new directory insdie of your current directory, called `repository`
+
 - `pwd`
 what directory am I in
 
@@ -48,7 +51,10 @@ make a new git repo, in the current directory
 what is the status of the git repo/directory I'm in. It is good practice to use this command frequently so that you can fully understand the state of the repo.
 
 - `git add .`
-add all the files to git's tracking system. In git-speak, this is called `staging` your files.
+add all the modified files to git's tracking system. In git-speak, this is called `staging` your files.
+
+    - `git add filename`
+    will only stage `filename`
 
 - `git commit -m "commit message"`
 commit (save) the changes to git's tracking system (the `-m` means messages).
@@ -61,7 +67,7 @@ the standard command to push to your Github repo (the Github repo added with `gi
 
 ## Guide - New Repository
 
-In Git Bash, navigate (`pwd`, `cd`, `mkdir`) into a new directory.
+In Git Bash, navigate (`pwd`, `cd`, `ls`, `mkdir`) into a new (empty) directory.
 
 `git init`
 
